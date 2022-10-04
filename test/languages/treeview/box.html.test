@@ -1,0 +1,133 @@
+root_folder/
+├── a first folder/
+|   ├── holidays.mov
+|   ├── javascript-file.js
+|   └── some_picture.jpg
+├── documents/
+|   ├── spreadsheet.xls
+|   ├── manual.pdf
+|   ├── document.docx
+|   └── presentation.ppt
+└── etc.
+
+----------------------------------------------------
+
+<span class="token treeview-part">
+<span class="token entry-name">
+root_folder
+<span class="token directory-marker">
+/
+</span>
+</span>
+</span>
+<span class="token treeview-part">
+<span class="token entry-line line-h">
+├──
+</span>
+<span class="token entry-name">
+a first folder
+<span class="token directory-marker">
+/
+</span>
+</span>
+</span>
+<span class="token treeview-part">
+<span class="token entry-line line-v">
+|
+</span>
+<span class="token entry-line line-h">
+├──
+</span>
+<span class="token entry-name">
+holidays.mov
+</span>
+</span>
+<span class="token treeview-part">
+<span class="token entry-line line-v">
+|
+</span>
+<span class="token entry-line line-h">
+├──
+</span>
+<span class="token entry-name">
+javascript-file.js
+</span>
+</span>
+<span class="token treeview-part">
+<span class="token entry-line line-v">
+|
+</span>
+<span class="token entry-line line-v-last">
+└──
+</span>
+<span class="token entry-name">
+some_picture.jpg
+</span>
+</span>
+<span class="token treeview-part">
+<span class="token entry-line line-h">
+├──
+</span>
+<span class="token entry-name">
+documents
+<span class="token directory-marker">
+/
+</span>
+</span>
+</span>
+<span class="token treeview-part">
+<span class="token entry-line line-v">
+|
+</span>
+<span class="token entry-line line-h">
+├──
+</span>
+<span class="token entry-name">
+spreadsheet.xls
+</span>
+</span>
+<span class="token treeview-part">
+<span class="token entry-line line-v">
+|
+</span>
+<span class="token entry-line line-h">
+├──
+</span>
+<span class="token entry-name">
+manual.pdf
+</span>
+</span>
+<span class="token treeview-part">
+<span class="token entry-line line-v">
+|
+</span>
+<span class="token entry-line line-h">
+├──
+</span>
+<span class="token entry-name">
+document.docx
+</span>
+</span>
+<span class="token treeview-part">
+<span class="token entry-line line-v">
+|
+</span>
+<span class="token entry-line line-v-last">
+└──
+</span>
+<span class="token entry-name">
+presentation.ppt
+</span>
+</span>
+<span class="token treeview-part">
+<span class="token entry-line line-v-last">
+└──
+</span>
+<span class="token entry-name">
+etc.
+</span>
+</span>
+
+----------------------------------------------------
+
+

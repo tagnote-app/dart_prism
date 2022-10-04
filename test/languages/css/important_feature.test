@@ -1,0 +1,89 @@
+color: red !important;
+padding: 10px 20px 30px !important;
+position:absolute!important;
+
+----------------------------------------------------
+
+[
+  [
+    "property",
+    "color"
+  ],
+  [
+    "punctuation",
+    ":"
+  ],
+  [
+    "color",
+    "red"
+  ],
+  [
+    "important",
+    "!important"
+  ],
+  [
+    "punctuation",
+    ";"
+  ],
+  [
+    "property",
+    "padding"
+  ],
+  [
+    "punctuation",
+    ":"
+  ],
+  [
+    "number",
+    "10"
+  ],
+  [
+    "unit",
+    "px"
+  ],
+  [
+    "number",
+    "20"
+  ],
+  [
+    "unit",
+    "px"
+  ],
+  [
+    "number",
+    "30"
+  ],
+  [
+    "unit",
+    "px"
+  ],
+  [
+    "important",
+    "!important"
+  ],
+  [
+    "punctuation",
+    ";"
+  ],
+  [
+    "property",
+    "position"
+  ],
+  [
+    "punctuation",
+    ":"
+  ],
+  "absolute",
+  [
+    "important",
+    "!important"
+  ],
+  [
+    "punctuation",
+    ";"
+  ]
+]
+
+----------------------------------------------------
+
+Checks for !important rule.

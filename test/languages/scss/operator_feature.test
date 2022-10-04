@@ -1,0 +1,231 @@
+4 - 2;
+4 + 2;
+4 * 2;
+4 / 2;
+4 % 2;
+4 == 2;
+4 != 2;
+4 < 2;
+4 <= 2;
+4 > 2;
+4 >= 2;
+true and false
+false or true
+not true
+
+----------------------------------------------------
+
+[
+  [
+    "number",
+    "4"
+  ],
+  [
+    "operator",
+    "-"
+  ],
+  [
+    "number",
+    "2"
+  ],
+  [
+    "punctuation",
+    ";"
+  ],
+  [
+    "number",
+    "4"
+  ],
+  [
+    "operator",
+    "+"
+  ],
+  [
+    "number",
+    "2"
+  ],
+  [
+    "punctuation",
+    ";"
+  ],
+  [
+    "number",
+    "4"
+  ],
+  [
+    "operator",
+    "*"
+  ],
+  [
+    "number",
+    "2"
+  ],
+  [
+    "punctuation",
+    ";"
+  ],
+  [
+    "number",
+    "4"
+  ],
+  [
+    "operator",
+    "/"
+  ],
+  [
+    "number",
+    "2"
+  ],
+  [
+    "punctuation",
+    ";"
+  ],
+  [
+    "number",
+    "4"
+  ],
+  [
+    "operator",
+    "%"
+  ],
+  [
+    "number",
+    "2"
+  ],
+  [
+    "punctuation",
+    ";"
+  ],
+  [
+    "number",
+    "4"
+  ],
+  [
+    "operator",
+    "=="
+  ],
+  [
+    "number",
+    "2"
+  ],
+  [
+    "punctuation",
+    ";"
+  ],
+  [
+    "number",
+    "4"
+  ],
+  [
+    "operator",
+    "!="
+  ],
+  [
+    "number",
+    "2"
+  ],
+  [
+    "punctuation",
+    ";"
+  ],
+  [
+    "number",
+    "4"
+  ],
+  [
+    "operator",
+    "<"
+  ],
+  [
+    "number",
+    "2"
+  ],
+  [
+    "punctuation",
+    ";"
+  ],
+  [
+    "number",
+    "4"
+  ],
+  [
+    "operator",
+    "<="
+  ],
+  [
+    "number",
+    "2"
+  ],
+  [
+    "punctuation",
+    ";"
+  ],
+  [
+    "number",
+    "4"
+  ],
+  [
+    "operator",
+    ">"
+  ],
+  [
+    "number",
+    "2"
+  ],
+  [
+    "punctuation",
+    ";"
+  ],
+  [
+    "number",
+    "4"
+  ],
+  [
+    "operator",
+    ">="
+  ],
+  [
+    "number",
+    "2"
+  ],
+  [
+    "punctuation",
+    ";"
+  ],
+  [
+    "boolean",
+    "true"
+  ],
+  [
+    "operator",
+    "and"
+  ],
+  [
+    "boolean",
+    "false"
+  ],
+  [
+    "boolean",
+    "false"
+  ],
+  [
+    "operator",
+    "or"
+  ],
+  [
+    "boolean",
+    "true"
+  ],
+  [
+    "operator",
+    "not"
+  ],
+  [
+    "boolean",
+    "true"
+  ]
+]
+
+----------------------------------------------------
+
+Checks for operators.

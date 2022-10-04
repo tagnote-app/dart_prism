@@ -1,0 +1,63 @@
+<img src="{{ static('path/to/company-logo.png') }}" alt="Company Logo">
+<a href="{{ url('admin:index') }}">Administration</a>
+
+----------------------------------------------------
+
+[
+	["tag", [
+		["punctuation", "<"],
+		["tag", ["img"]],
+		["attr-name", ["src"]],
+		["attr-value", [
+			["punctuation", "="],
+			["punctuation", "\""],
+			["django", [
+				["delimiter", "{{"],
+				["function", "static"],
+				["punctuation", "("],
+				["string", "'path/to/company-logo.png'"],
+				["punctuation", ")"],
+				["delimiter", "}}"]
+			]],
+			["punctuation", "\""]
+		]],
+		["attr-name", ["alt"]],
+		["attr-value", [
+			["punctuation", "="],
+			["punctuation", "\""],
+			"Company Logo",
+			["punctuation", "\""]
+		]],
+		["punctuation", ">"]
+	]],
+
+	["tag", [
+		["punctuation", "<"],
+		["tag", ["a"]],
+		["attr-name", ["href"]],
+		["attr-value", [
+			["punctuation", "="],
+			["punctuation", "\""],
+			["django", [
+				["delimiter", "{{"],
+				["function", "url"],
+				["punctuation", "("],
+				["string", "'admin:index'"],
+				["punctuation", ")"],
+				["delimiter", "}}"]
+			]],
+			["punctuation", "\""]
+		]],
+		["punctuation", ">"]
+	]],
+	"Administration",
+	["tag", [
+		["punctuation", "</"],
+		["tag", ["a"]],
+		["punctuation", ">"]
+	]]
+]
+
+----------------------------------------------------
+
+Checks for functions.

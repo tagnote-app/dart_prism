@@ -1,0 +1,45 @@
+!     qt: core
+
+  unchanged
+
+-    qt: core
++    qt: core gui
+
+< qt: core
+> qt: core quick
+
+----------------------------------------------------
+
+[
+	["diff", [
+		["prefix", "!"],
+		"     qt: core\r\n"
+	]],
+
+	["unchanged", [
+		["prefix", " "],
+		" unchanged\r\n"
+	]],
+
+	["deleted-sign", [
+		["prefix", "-"],
+		"    qt: core\r\n"
+	]],
+	["inserted-sign", [
+		["prefix", "+"],
+		"    qt: core gui\r\n"
+	]],
+
+	["deleted-arrow", [
+		["prefix", "<"],
+		" qt: core\r\n"
+	]],
+	["inserted-arrow", [
+		["prefix", ">"],
+		" qt: core quick"
+	]]
+]
+
+----------------------------------------------------
+
+Checks for deleted, inserted and different lines.

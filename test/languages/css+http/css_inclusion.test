@@ -1,0 +1,74 @@
+Content-type: text/css
+
+a.link:hover {
+	color: red;
+}
+
+----------------------------------------------------
+
+[
+  [
+    "header",
+    [
+      [
+        "header-name",
+        "Content-type"
+      ],
+      [
+        "punctuation",
+        ":"
+      ],
+      [
+        "header-value",
+        "text/css"
+      ]
+    ]
+  ],
+  [
+    "text-css",
+    [
+      [
+        "selector",
+        [
+          "a",
+          [
+            "class",
+            ".link"
+          ],
+          [
+            "pseudo-class",
+            ":hover"
+          ]
+        ]
+      ],
+      [
+        "punctuation",
+        "{"
+      ],
+      [
+        "property",
+        "color"
+      ],
+      [
+        "punctuation",
+        ":"
+      ],
+      [
+        "color",
+        "red"
+      ],
+      [
+        "punctuation",
+        ";"
+      ],
+      [
+        "punctuation",
+        "}"
+      ]
+    ]
+  ]
+]
+
+----------------------------------------------------
+
+Checks for JavaScript content in HTTP.

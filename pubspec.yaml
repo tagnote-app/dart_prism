@@ -1,0 +1,11 @@
+name: dart_prism
+description: A syntax highlighting library written in Dart, ported from PrismJS.
+version: 0.1.0
+homepage: https://github.com/chenzhiguang/dart_prism
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.16.0

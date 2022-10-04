@@ -1,0 +1,107 @@
+/**
+ * <p>
+ * <table>
+ *     <tr>
+ *         <td>
+ *             foo
+ *         </td>
+ *         <td>
+ *             bar
+ *         </td>
+ *     </tr>
+ * </table>
+ * <a href="example.com">some link</a>
+ */
+
+----------------------------------------------------
+
+[
+	"/**\r\n * ",
+	["tag", [
+		["punctuation", "<"],
+		["tag", ["p"]],
+		["punctuation", ">"]
+	]],
+
+	"\r\n * ",
+	["tag", [
+		["punctuation", "<"],
+		["tag", ["table"]],
+		["punctuation", ">"]
+	]],
+
+	"\r\n *     ",
+	["tag", [
+		["punctuation", "<"],
+		["tag", ["tr"]],
+		["punctuation", ">"]
+	]],
+
+	"\r\n *         ",
+	["tag", [
+		["punctuation", "<"],
+		["tag", ["td"]],
+		["punctuation", ">"]
+	]],
+
+	"\r\n *             foo\r\n *         ",
+	["tag", [
+		["punctuation", "</"],
+		["tag", ["td"]],
+		["punctuation", ">"]
+	]],
+
+	"\r\n *         ",
+	["tag", [
+		["punctuation", "<"],
+		["tag", ["td"]],
+		["punctuation", ">"]
+	]],
+
+	"\r\n *             bar\r\n *         ",
+	["tag", [
+		["punctuation", "</"],
+		["tag", ["td"]],
+		["punctuation", ">"]
+	]],
+
+	"\r\n *     ",
+	["tag", [
+		["punctuation", "</"],
+		["tag", ["tr"]],
+		["punctuation", ">"]
+	]],
+
+	"\r\n * ",
+	["tag", [
+		["punctuation", "</"],
+		["tag", ["table"]],
+		["punctuation", ">"]
+	]],
+
+	"\r\n * ",
+	["tag", [
+		["punctuation", "<"],
+		["tag", ["a"]],
+		["attr-name", ["href"]],
+		["attr-value", [
+			["punctuation", "="],
+			["punctuation", "\""],
+			"example.com",
+			["punctuation", "\""]
+		]],
+		["punctuation", ">"]
+	]],
+	"some link",
+	["tag", [
+		["punctuation", "</"],
+		["tag", ["a"]],
+		["punctuation", ">"]
+	]],
+
+	"\r\n */"
+]
+
+----------------------------------------------------
+
+Checks for HTML tags inside doc comments.

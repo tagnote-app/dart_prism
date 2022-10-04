@@ -1,0 +1,49 @@
+/**
+ * @param string|null $parameter a parameter
+ * @return self
+ * @var MyClass[int]
+ * @throws \foo\MyException if something bad happens
+ */
+
+----------------------------------------------------
+
+[
+	["doc-comment", [
+		"/**\r\n * ",
+		["keyword", "@param"],
+		["class-name", [
+			["keyword", "string"],
+			["punctuation", "|"],
+			["keyword", "null"]
+		]],
+		["parameter", "$parameter"],
+		" a parameter\r\n * ",
+		["keyword", "@return"],
+		["class-name", [
+			["keyword", "self"]
+		]],
+
+		"\r\n * ",
+		["keyword", "@var"],
+		["class-name", [
+			"MyClass",
+			["punctuation", "["],
+			["keyword", "int"],
+			["punctuation", "]"]
+		]],
+
+		"\r\n * ",
+		["keyword", "@throws"],
+		["class-name", [
+			["punctuation", "\\"],
+			"foo",
+			["punctuation", "\\"],
+			"MyException"
+		]],
+		" if something bad happens\r\n */"
+	]]
+]
+
+----------------------------------------------------
+
+Checks for PHPDoc doc comments in PHP.

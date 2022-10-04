@@ -1,0 +1,123 @@
+foo{
+
+foo + bar {
+
+foo:first-child:hover {
+
+* {
+
+foo,
+bar{
+
+[foo="{\"}"] {
+
+----------------------------------------------------
+
+[
+  [
+    "selector",
+    [
+      "foo"
+    ]
+  ],
+  [
+    "punctuation",
+    "{"
+  ],
+  [
+    "selector",
+    [
+      "foo ",
+      [
+        "combinator",
+        "+"
+      ],
+      " bar"
+    ]
+  ],
+  [
+    "punctuation",
+    "{"
+  ],
+  [
+    "selector",
+    [
+      "foo",
+      [
+        "pseudo-class",
+        ":first-child"
+      ],
+      [
+        "pseudo-class",
+        ":hover"
+      ]
+    ]
+  ],
+  [
+    "punctuation",
+    "{"
+  ],
+  [
+    "selector",
+    [
+      "*"
+    ]
+  ],
+  [
+    "punctuation",
+    "{"
+  ],
+  [
+    "selector",
+    [
+      "foo",
+      [
+        "punctuation",
+        ","
+      ],
+      "\nbar"
+    ]
+  ],
+  [
+    "punctuation",
+    "{"
+  ],
+  [
+    "selector",
+    [
+      [
+        "attribute",
+        [
+          [
+            "punctuation",
+            "["
+          ],
+          [
+            "attr-name",
+            "foo"
+          ],
+          [
+            "operator",
+            "="
+          ],
+          [
+            "attr-value",
+            "\"{\\\"}\""
+          ],
+          [
+            "punctuation",
+            "]"
+          ]
+        ]
+      ]
+    ]
+  ],
+  [
+    "punctuation",
+    "{"
+  ]
+]
+
+----------------------------------------------------
+
+Checks for single-line and multi-line selectors.

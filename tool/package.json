@@ -1,0 +1,12 @@
+{
+  "name": "tool",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "flatted": "^3.2.7"
+  },
+  "scripts": {
+    "clone-prismjs": "bash -c 'git clone https://github.com/PrismJS/prism.git prismjs'"
+  }
+}
