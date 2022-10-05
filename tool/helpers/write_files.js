@@ -31,8 +31,8 @@ export async function createLanguageFile(
   const content = `${comment}
   // ignore_for_file: use_raw_strings, file_names
 
-  import '../src/models/models.dart';
-  ${hasCustomTokenizes ? "import '../src/tokenizers/tokenizers.dart';" : ''}
+  import '../models/models.dart';
+  ${hasCustomTokenizes ? "import '../tokenizers/tokenizers.dart';" : ''}
 
   LanguageProto _create() {
     ${definitions}
@@ -67,7 +67,7 @@ export async function createLanguageEntry(
     `${comment}
     // ignore_for_file: directives_ordering
 
-    import '../src/models/language_proto.dart';
+    import '../models/language_proto.dart';
     ${imports.join('\n')}
 
     final languageMap = Map<String, LanguageProto>.unmodifiable({

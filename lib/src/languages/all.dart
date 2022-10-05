@@ -1,0 +1,717 @@
+// Generated file, do not edit manually.
+//
+// Script: tool/update_languages.js
+// ignore_for_file: directives_ordering
+
+import '../models/language_proto.dart';
+import 'abap.dart';
+import 'abnf.dart';
+import 'actionscript.dart';
+import 'ada.dart';
+import 'agda.dart';
+import 'al.dart';
+import 'antlr4.dart';
+import 'apacheconf.dart';
+import 'apex.dart';
+import 'apl.dart';
+import 'applescript.dart';
+import 'aql.dart';
+import 'arduino.dart';
+import 'arff.dart';
+import 'armasm.dart';
+import 'arturo.dart';
+import 'asciidoc.dart';
+import 'asm6502.dart';
+import 'asmatmel.dart';
+import 'aspnet.dart';
+import 'autohotkey.dart';
+import 'autoit.dart';
+import 'avisynth.dart';
+import 'avro_idl.dart';
+import 'awk.dart';
+import 'bash.dart';
+import 'basic.dart';
+import 'batch.dart';
+import 'bbcode.dart';
+import 'bbj.dart';
+import 'bicep.dart';
+import 'birb.dart';
+import 'bison.dart';
+import 'bnf.dart';
+import 'bqn.dart';
+import 'brainfuck.dart';
+import 'brightscript.dart';
+import 'bro.dart';
+import 'bsl.dart';
+import 'c.dart';
+import 'cfscript.dart';
+import 'chaiscript.dart';
+import 'cil.dart';
+import 'cilkc.dart';
+import 'cilkcpp.dart';
+import 'clike.dart';
+import 'clojure.dart';
+import 'cmake.dart';
+import 'cobol.dart';
+import 'coffeescript.dart';
+import 'concurnas.dart';
+import 'cooklang.dart';
+import 'coq.dart';
+import 'cpp.dart';
+import 'crystal.dart';
+import 'csharp.dart';
+import 'cshtml.dart';
+import 'csp.dart';
+import 'css_extras.dart';
+import 'css_selector.dart';
+import 'css.dart';
+import 'csv.dart';
+import 'cue.dart';
+import 'cypher.dart';
+import 'd.dart';
+import 'dart.dart';
+import 'dataweave.dart';
+import 'dax.dart';
+import 'dhall.dart';
+import 'diff.dart';
+import 'django.dart';
+import 'dns_zone-file.dart';
+import 'docker.dart';
+import 'dot.dart';
+import 'ebnf.dart';
+import 'editorconfig.dart';
+import 'eiffel.dart';
+import 'ejs.dart';
+import 'elixir.dart';
+import 'elm.dart';
+import 'erb.dart';
+import 'erlang.dart';
+import 'etlua.dart';
+import 'excel_formula.dart';
+import 'factor.dart';
+import 'false.dart';
+import 'firestore_security-rules.dart';
+import 'flow.dart';
+import 'fortran.dart';
+import 'fsharp.dart';
+import 'ftl.dart';
+import 'gap.dart';
+import 'gcode.dart';
+import 'gdscript.dart';
+import 'gedcom.dart';
+import 'gettext.dart';
+import 'gherkin.dart';
+import 'git.dart';
+import 'glsl.dart';
+import 'gml.dart';
+import 'gn.dart';
+import 'go_module.dart';
+import 'go.dart';
+import 'gradle.dart';
+import 'graphql.dart';
+import 'groovy.dart';
+import 'haml.dart';
+import 'handlebars.dart';
+import 'haskell.dart';
+import 'haxe.dart';
+import 'hcl.dart';
+import 'hlsl.dart';
+import 'hoon.dart';
+import 'hpkp.dart';
+import 'hsts.dart';
+import 'http.dart';
+import 'ichigojam.dart';
+import 'icon.dart';
+import 'icu_message-format.dart';
+import 'idris.dart';
+import 'iecst.dart';
+import 'ignore.dart';
+import 'inform7.dart';
+import 'ini.dart';
+import 'io.dart';
+import 'j.dart';
+import 'java.dart';
+import 'javadoc.dart';
+import 'javadoclike.dart';
+import 'javascript.dart';
+import 'javastacktrace.dart';
+import 'jexl.dart';
+import 'jolie.dart';
+import 'jq.dart';
+import 'js_templates.dart';
+import 'jsdoc.dart';
+import 'json.dart';
+import 'json5.dart';
+import 'jsonp.dart';
+import 'jsstacktrace.dart';
+import 'jsx.dart';
+import 'julia.dart';
+import 'keepalived.dart';
+import 'keyman.dart';
+import 'kotlin.dart';
+import 'kumir.dart';
+import 'kusto.dart';
+import 'latex.dart';
+import 'latte.dart';
+import 'less.dart';
+import 'lilypond.dart';
+import 'linker_script.dart';
+import 'liquid.dart';
+import 'lisp.dart';
+import 'livescript.dart';
+import 'llvm.dart';
+import 'log.dart';
+import 'lolcode.dart';
+import 'lua.dart';
+import 'magma.dart';
+import 'makefile.dart';
+import 'markdown.dart';
+import 'markup.dart';
+import 'mata.dart';
+import 'matlab.dart';
+import 'maxscript.dart';
+import 'mel.dart';
+import 'mermaid.dart';
+import 'metafont.dart';
+import 'mizar.dart';
+import 'mongodb.dart';
+import 'monkey.dart';
+import 'moonscript.dart';
+import 'n1ql.dart';
+import 'n4js.dart';
+import 'nand2tetris_hdl.dart';
+import 'naniscript.dart';
+import 'nasm.dart';
+import 'neon.dart';
+import 'nevod.dart';
+import 'nginx.dart';
+import 'nim.dart';
+import 'nix.dart';
+import 'nsis.dart';
+import 'objectivec.dart';
+import 'ocaml.dart';
+import 'odin.dart';
+import 'opencl_extensions.dart';
+import 'opencl.dart';
+import 'openqasm.dart';
+import 'oz.dart';
+import 'parigp.dart';
+import 'parser.dart';
+import 'pascal.dart';
+import 'pascaligo.dart';
+import 'pcaxis.dart';
+import 'peoplecode.dart';
+import 'perl.dart';
+import 'php_extras.dart';
+import 'php.dart';
+import 'phpdoc.dart';
+import 'plain.dart';
+import 'plant_uml.dart';
+import 'plsql.dart';
+import 'powerquery.dart';
+import 'powershell.dart';
+import 'processing.dart';
+import 'prolog.dart';
+import 'promql.dart';
+import 'properties.dart';
+import 'protobuf.dart';
+import 'psl.dart';
+import 'pug.dart';
+import 'puppet.dart';
+import 'pure.dart';
+import 'purebasic.dart';
+import 'purescript.dart';
+import 'python.dart';
+import 'q.dart';
+import 'qml.dart';
+import 'qore.dart';
+import 'qsharp.dart';
+import 'r.dart';
+import 'racket.dart';
+import 'reason.dart';
+import 'regex.dart';
+import 'rego.dart';
+import 'renpy.dart';
+import 'rescript.dart';
+import 'rest.dart';
+import 'rip.dart';
+import 'roboconf.dart';
+import 'robotframework.dart';
+import 'ruby.dart';
+import 'rust.dart';
+import 'sas.dart';
+import 'sass.dart';
+import 'scala.dart';
+import 'scheme.dart';
+import 'scss.dart';
+import 'shell_session.dart';
+import 'smali.dart';
+import 'smalltalk.dart';
+import 'smarty.dart';
+import 'sml.dart';
+import 'solidity.dart';
+import 'solution_file.dart';
+import 'soy.dart';
+import 'sparql.dart';
+import 'splunk_spl.dart';
+import 'sqf.dart';
+import 'sql.dart';
+import 'squirrel.dart';
+import 'stan.dart';
+import 'stata.dart';
+import 'stylus.dart';
+import 'supercollider.dart';
+import 'swift.dart';
+import 'systemd.dart';
+import 't4_cs.dart';
+import 't4_vb.dart';
+import 'tap.dart';
+import 'tcl.dart';
+import 'textile.dart';
+import 'toml.dart';
+import 'treeview.dart';
+import 'tremor.dart';
+import 'tsx.dart';
+import 'tt2.dart';
+import 'turtle.dart';
+import 'twig.dart';
+import 'typescript.dart';
+import 'typoscript.dart';
+import 'unrealscript.dart';
+import 'uorazor.dart';
+import 'uri.dart';
+import 'v.dart';
+import 'vala.dart';
+import 'vbnet.dart';
+import 'velocity.dart';
+import 'verilog.dart';
+import 'vhdl.dart';
+import 'vim.dart';
+import 'visual_basic.dart';
+import 'warpscript.dart';
+import 'wasm.dart';
+import 'web_idl.dart';
+import 'wgsl.dart';
+import 'wiki.dart';
+import 'wolfram.dart';
+import 'wren.dart';
+import 'xeora.dart';
+import 'xml_doc.dart';
+import 'xml.dart';
+import 'xojo.dart';
+import 'xquery.dart';
+import 'yaml.dart';
+import 'yang.dart';
+import 'zig.dart';
+
+final languageMap = Map<String, LanguageProto>.unmodifiable({
+  'abap': languageAbap,
+  'abnf': languageAbnf,
+  'actionscript': languageActionscript,
+  'ada': languageAda,
+  'agda': languageAgda,
+  'al': languageAl,
+  'antlr4': languageAntlr4,
+  'apacheconf': languageApacheconf,
+  'apex': languageApex,
+  'apl': languageApl,
+  'applescript': languageApplescript,
+  'aql': languageAql,
+  'arduino': languageArduino,
+  'arff': languageArff,
+  'armasm': languageArmasm,
+  'arturo': languageArturo,
+  'asciidoc': languageAsciidoc,
+  'asm6502': languageAsm6502,
+  'asmatmel': languageAsmatmel,
+  'aspnet': languageAspnet,
+  'autohotkey': languageAutohotkey,
+  'autoit': languageAutoit,
+  'avisynth': languageAvisynth,
+  'avro-idl': languageAvroIdl,
+  'awk': languageAwk,
+  'bash': languageBash,
+  'basic': languageBasic,
+  'batch': languageBatch,
+  'bbcode': languageBbcode,
+  'bbj': languageBbj,
+  'bicep': languageBicep,
+  'birb': languageBirb,
+  'bison': languageBison,
+  'bnf': languageBnf,
+  'bqn': languageBqn,
+  'brainfuck': languageBrainfuck,
+  'brightscript': languageBrightscript,
+  'bro': languageBro,
+  'bsl': languageBsl,
+  'c': languageC,
+  'cfscript': languageCfscript,
+  'chaiscript': languageChaiscript,
+  'cil': languageCil,
+  'cilkc': languageCilkc,
+  'cilkcpp': languageCilkcpp,
+  'clike': languageClike,
+  'clojure': languageClojure,
+  'cmake': languageCmake,
+  'cobol': languageCobol,
+  'coffeescript': languageCoffeescript,
+  'concurnas': languageConcurnas,
+  'cooklang': languageCooklang,
+  'coq': languageCoq,
+  'cpp': languageCpp,
+  'crystal': languageCrystal,
+  'csharp': languageCsharp,
+  'cshtml': languageCshtml,
+  'csp': languageCsp,
+  'css-extras': languageCssExtras,
+  'css-selector': languageCssSelector,
+  'css': languageCss,
+  'csv': languageCsv,
+  'cue': languageCue,
+  'cypher': languageCypher,
+  'd': languageD,
+  'dart': languageDart,
+  'dataweave': languageDataweave,
+  'dax': languageDax,
+  'dhall': languageDhall,
+  'diff': languageDiff,
+  'django': languageDjango,
+  'dns-zone-file': languageDnsZoneFile,
+  'docker': languageDocker,
+  'dot': languageDot,
+  'ebnf': languageEbnf,
+  'editorconfig': languageEditorconfig,
+  'eiffel': languageEiffel,
+  'ejs': languageEjs,
+  'elixir': languageElixir,
+  'elm': languageElm,
+  'erb': languageErb,
+  'erlang': languageErlang,
+  'etlua': languageEtlua,
+  'excel-formula': languageExcelFormula,
+  'factor': languageFactor,
+  'false': languageFalse,
+  'firestore-security-rules': languageFirestoreSecurityRules,
+  'flow': languageFlow,
+  'fortran': languageFortran,
+  'fsharp': languageFsharp,
+  'ftl': languageFtl,
+  'gap': languageGap,
+  'gcode': languageGcode,
+  'gdscript': languageGdscript,
+  'gedcom': languageGedcom,
+  'gettext': languageGettext,
+  'gherkin': languageGherkin,
+  'git': languageGit,
+  'glsl': languageGlsl,
+  'gml': languageGml,
+  'gn': languageGn,
+  'go-module': languageGoModule,
+  'go': languageGo,
+  'gradle': languageGradle,
+  'graphql': languageGraphql,
+  'groovy': languageGroovy,
+  'haml': languageHaml,
+  'handlebars': languageHandlebars,
+  'haskell': languageHaskell,
+  'haxe': languageHaxe,
+  'hcl': languageHcl,
+  'hlsl': languageHlsl,
+  'hoon': languageHoon,
+  'hpkp': languageHpkp,
+  'hsts': languageHsts,
+  'http': languageHttp,
+  'ichigojam': languageIchigojam,
+  'icon': languageIcon,
+  'icu-message-format': languageIcuMessageFormat,
+  'idris': languageIdris,
+  'iecst': languageIecst,
+  'ignore': languageIgnore,
+  'inform7': languageInform7,
+  'ini': languageIni,
+  'io': languageIo,
+  'j': languageJ,
+  'java': languageJava,
+  'javadoc': languageJavadoc,
+  'javadoclike': languageJavadoclike,
+  'javascript': languageJavascript,
+  'javastacktrace': languageJavastacktrace,
+  'jexl': languageJexl,
+  'jolie': languageJolie,
+  'jq': languageJq,
+  'js-templates': languageJsTemplates,
+  'jsdoc': languageJsdoc,
+  'json': languageJson,
+  'json5': languageJson5,
+  'jsonp': languageJsonp,
+  'jsstacktrace': languageJsstacktrace,
+  'jsx': languageJsx,
+  'julia': languageJulia,
+  'keepalived': languageKeepalived,
+  'keyman': languageKeyman,
+  'kotlin': languageKotlin,
+  'kumir': languageKumir,
+  'kusto': languageKusto,
+  'latex': languageLatex,
+  'latte': languageLatte,
+  'less': languageLess,
+  'lilypond': languageLilypond,
+  'linker-script': languageLinkerScript,
+  'liquid': languageLiquid,
+  'lisp': languageLisp,
+  'livescript': languageLivescript,
+  'llvm': languageLlvm,
+  'log': languageLog,
+  'lolcode': languageLolcode,
+  'lua': languageLua,
+  'magma': languageMagma,
+  'makefile': languageMakefile,
+  'markdown': languageMarkdown,
+  'markup': languageMarkup,
+  'mata': languageMata,
+  'matlab': languageMatlab,
+  'maxscript': languageMaxscript,
+  'mel': languageMel,
+  'mermaid': languageMermaid,
+  'metafont': languageMetafont,
+  'mizar': languageMizar,
+  'mongodb': languageMongodb,
+  'monkey': languageMonkey,
+  'moonscript': languageMoonscript,
+  'n1ql': languageN1Ql,
+  'n4js': languageN4Js,
+  'nand2tetris-hdl': languageNand2TetrisHdl,
+  'naniscript': languageNaniscript,
+  'nasm': languageNasm,
+  'neon': languageNeon,
+  'nevod': languageNevod,
+  'nginx': languageNginx,
+  'nim': languageNim,
+  'nix': languageNix,
+  'nsis': languageNsis,
+  'objectivec': languageObjectivec,
+  'ocaml': languageOcaml,
+  'odin': languageOdin,
+  'opencl-extensions': languageOpenclExtensions,
+  'opencl': languageOpencl,
+  'openqasm': languageOpenqasm,
+  'oz': languageOz,
+  'parigp': languageParigp,
+  'parser': languageParser,
+  'pascal': languagePascal,
+  'pascaligo': languagePascaligo,
+  'pcaxis': languagePcaxis,
+  'peoplecode': languagePeoplecode,
+  'perl': languagePerl,
+  'php-extras': languagePhpExtras,
+  'php': languagePhp,
+  'phpdoc': languagePhpdoc,
+  'plain': languagePlain,
+  'plant-uml': languagePlantUml,
+  'plsql': languagePlsql,
+  'powerquery': languagePowerquery,
+  'powershell': languagePowershell,
+  'processing': languageProcessing,
+  'prolog': languageProlog,
+  'promql': languagePromql,
+  'properties': languageProperties,
+  'protobuf': languageProtobuf,
+  'psl': languagePsl,
+  'pug': languagePug,
+  'puppet': languagePuppet,
+  'pure': languagePure,
+  'purebasic': languagePurebasic,
+  'purescript': languagePurescript,
+  'python': languagePython,
+  'q': languageQ,
+  'qml': languageQml,
+  'qore': languageQore,
+  'qsharp': languageQsharp,
+  'r': languageR,
+  'racket': languageRacket,
+  'reason': languageReason,
+  'regex': languageRegex,
+  'rego': languageRego,
+  'renpy': languageRenpy,
+  'rescript': languageRescript,
+  'rest': languageRest,
+  'rip': languageRip,
+  'roboconf': languageRoboconf,
+  'robotframework': languageRobotframework,
+  'ruby': languageRuby,
+  'rust': languageRust,
+  'sas': languageSas,
+  'sass': languageSass,
+  'scala': languageScala,
+  'scheme': languageScheme,
+  'scss': languageScss,
+  'shell-session': languageShellSession,
+  'smali': languageSmali,
+  'smalltalk': languageSmalltalk,
+  'smarty': languageSmarty,
+  'sml': languageSml,
+  'solidity': languageSolidity,
+  'solution-file': languageSolutionFile,
+  'soy': languageSoy,
+  'sparql': languageSparql,
+  'splunk-spl': languageSplunkSpl,
+  'sqf': languageSqf,
+  'sql': languageSql,
+  'squirrel': languageSquirrel,
+  'stan': languageStan,
+  'stata': languageStata,
+  'stylus': languageStylus,
+  'supercollider': languageSupercollider,
+  'swift': languageSwift,
+  'systemd': languageSystemd,
+  't4-cs': languageT4Cs,
+  't4-vb': languageT4Vb,
+  'tap': languageTap,
+  'tcl': languageTcl,
+  'textile': languageTextile,
+  'toml': languageToml,
+  'treeview': languageTreeview,
+  'tremor': languageTremor,
+  'tsx': languageTsx,
+  'tt2': languageTt2,
+  'turtle': languageTurtle,
+  'twig': languageTwig,
+  'typescript': languageTypescript,
+  'typoscript': languageTyposcript,
+  'unrealscript': languageUnrealscript,
+  'uorazor': languageUorazor,
+  'uri': languageUri,
+  'v': languageV,
+  'vala': languageVala,
+  'vbnet': languageVbnet,
+  'velocity': languageVelocity,
+  'verilog': languageVerilog,
+  'vhdl': languageVhdl,
+  'vim': languageVim,
+  'visual-basic': languageVisualBasic,
+  'warpscript': languageWarpscript,
+  'wasm': languageWasm,
+  'web-idl': languageWebIdl,
+  'wgsl': languageWgsl,
+  'wiki': languageWiki,
+  'wolfram': languageWolfram,
+  'wren': languageWren,
+  'xeora': languageXeora,
+  'xml-doc': languageXmlDoc,
+  'xml': languageXml,
+  'xojo': languageXojo,
+  'xquery': languageXquery,
+  'yaml': languageYaml,
+  'yang': languageYang,
+  'zig': languageZig,
+});
+
+final aliasMap = Map<String, String>.unmodifiable({
+  'g4': 'antlr4',
+  'ino': 'arduino',
+  'arm-asm': 'armasm',
+  'art': 'arturo',
+  'adoc': 'asciidoc',
+  'avs': 'avisynth',
+  'avdl': 'avro-idl',
+  'gawk': 'awk',
+  'sh': 'bash',
+  'shell': 'bash',
+  'shortcode': 'bbcode',
+  'rbnf': 'bnf',
+  'oscript': 'bsl',
+  'cfc': 'cfscript',
+  'cilk-c': 'cilkc',
+  'cilk-cpp': 'cilkcpp',
+  'cilk': 'cilkcpp',
+  'coffee': 'coffeescript',
+  'conc': 'concurnas',
+  'cs': 'csharp',
+  'dotnet': 'csharp',
+  'razor': 'cshtml',
+  'jinja2': 'django',
+  'dns-zone': 'dns-zone-file',
+  'dockerfile': 'docker',
+  'gv': 'dot',
+  'eta': 'ejs',
+  'xlsx': 'excel-formula',
+  'xls': 'excel-formula',
+  'po': 'gettext',
+  'gamemakerlanguage': 'gml',
+  'gni': 'gn',
+  'go-mod': 'go-module',
+  'hbs': 'handlebars',
+  'mustache': 'handlebars',
+  'hs': 'haskell',
+  'idr': 'idris',
+  'gitignore': 'ignore',
+  'hgignore': 'ignore',
+  'npmignore': 'ignore',
+  'js': 'javascript',
+  'webmanifest': 'json',
+  'kt': 'kotlin',
+  'kts': 'kotlin',
+  'kum': 'kumir',
+  'tex': 'latex',
+  'context': 'latex',
+  'ly': 'lilypond',
+  'ld': 'linker-script',
+  'emacs': 'lisp',
+  'elisp': 'lisp',
+  'emacs-lisp': 'lisp',
+  'md': 'markdown',
+  'html': 'markup',
+  'svg': 'markup',
+  'mathml': 'markup',
+  'moon': 'moonscript',
+  'n4jsd': 'n4js',
+  'nani': 'naniscript',
+  'objc': 'objectivec',
+  'qasm': 'openqasm',
+  'objectpascal': 'pascal',
+  'px': 'pcaxis',
+  'pcode': 'peoplecode',
+  'text': 'plain',
+  'txt': 'plain',
+  'plaintext': 'plain',
+  'plantuml': 'plant-uml',
+  'pq': 'powerquery',
+  'mscript': 'powerquery',
+  'pbfasm': 'purebasic',
+  'purs': 'purescript',
+  'py': 'python',
+  'qs': 'qsharp',
+  'rkt': 'racket',
+  'rpy': 'renpy',
+  'res': 'rescript',
+  'robot': 'robotframework',
+  'rb': 'ruby',
+  'sh-session': 'shell-session',
+  'shellsession': 'shell-session',
+  'smlnj': 'sml',
+  'sol': 'solidity',
+  'sln': 'solution-file',
+  'rq': 'sparql',
+  'sclang': 'supercollider',
+  't4': 't4-cs',
+  'tree-view': 'treeview',
+  'trickle': 'tremor',
+  'troy': 'tremor',
+  'trig': 'turtle',
+  'ts': 'typescript',
+  'tsconfig': 'typoscript',
+  'uscript': 'unrealscript',
+  'uc': 'unrealscript',
+  'url': 'uri',
+  'vb': 'visual-basic',
+  'vba': 'visual-basic',
+  'webidl': 'web-idl',
+  'mathematica': 'wolfram',
+  'nb': 'wolfram',
+  'wl': 'wolfram',
+  'xeoracube': 'xeora',
+  'ssml': 'xml',
+  'atom': 'xml',
+  'rss': 'xml',
+  'yml': 'yaml',
+});

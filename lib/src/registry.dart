@@ -1,4 +1,4 @@
-import '../languages/all.dart';
+import 'languages/all.dart';
 import 'models/models.dart';
 
 class Registry {
