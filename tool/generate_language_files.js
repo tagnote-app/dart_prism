@@ -13,7 +13,7 @@ import {
 const tokenizeParser = new TokenizeParser();
 const srcDir = './prismjs/src';
 const inputDir = `${srcDir}/languages`;
-const outputDir = '../lib/languages';
+const outputDir = '../lib/src/languages';
 
 const prism = new Prism();
 const imports = [];
