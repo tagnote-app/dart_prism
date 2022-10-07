@@ -1,3 +1,4 @@
+export 'error.dart';
 export 'grammar.dart';
 export 'grammar_token.dart';
 export 'language_proto.dart';

@@ -16,7 +16,7 @@ class Prism {
     final grammar = registry.getGrammar(language);
 
     if (grammar == null) {
-      throw ArgumentError('The language $language has no grammar.');
+      throw NoGrammarFoundError(language);
     }
 
     return tokenize(text, grammar);
