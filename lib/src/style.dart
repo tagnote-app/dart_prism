@@ -1,8 +1,6 @@
 class PrismStyle<T> {
   PrismStyle({
-    T? root,
     T? token,
-    //
     T? atrule,
     T? attrName,
     T? attrValue,
@@ -35,7 +33,6 @@ class PrismStyle<T> {
     T? tag,
     T? url,
   }) {
-    if (root != null) _styleMap['root'] = root;
     if (token != null) _styleMap['token'] = token;
     if (atrule != null) _styleMap['atrule'] = atrule;
     if (attrName != null) _styleMap['attr-name'] = attrName;
