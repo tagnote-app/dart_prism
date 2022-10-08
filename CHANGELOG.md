@@ -1,3 +1,7 @@
+## 0.2.1-dev
+
+- Change `PrismStyle` to constant constructor.
+
 ## 0.2.0
 
 - **Breaking change**: Remove `root` from `PrismStyle`.
