@@ -1,84 +1,288 @@
+/// Creates a style.
 class PrismStyle<T> {
-  PrismStyle({
-    T? token,
-    T? atrule,
-    T? attrName,
-    T? attrValue,
-    T? bold,
-    T? boolean,
-    T? builtin,
-    T? cdata,
-    T? char,
-    T? className,
-    T? comment,
-    T? constant,
-    T? deleted,
-    T? doctype,
-    T? entity,
-    T? function,
-    T? important,
-    T? inserted,
-    T? italic,
-    T? keyword,
-    T? namespace,
-    T? number,
-    T? operator,
-    T? prolog,
-    T? property,
-    T? punctuation,
-    T? regex,
-    T? selector,
-    T? string,
-    T? symbol,
-    T? tag,
-    T? url,
-  }) {
-    if (token != null) _styleMap['token'] = token;
-    if (atrule != null) _styleMap['atrule'] = atrule;
-    if (attrName != null) _styleMap['attr-name'] = attrName;
-    if (attrValue != null) _styleMap['attr-value'] = attrValue;
-    if (bold != null) _styleMap['bold'] = bold;
-    if (boolean != null) _styleMap['boolean'] = boolean;
-    if (builtin != null) _styleMap['builtin'] = builtin;
-    if (cdata != null) _styleMap['cdata'] = cdata;
-    if (char != null) _styleMap['char'] = char;
-    if (className != null) _styleMap['class-name'] = className;
-    if (comment != null) _styleMap['comment'] = comment;
-    if (constant != null) _styleMap['constant'] = constant;
-    if (deleted != null) _styleMap['deleted'] = deleted;
-    if (doctype != null) _styleMap['doctype'] = doctype;
-    if (entity != null) _styleMap['entity'] = entity;
-    if (function != null) _styleMap['function'] = function;
-    if (important != null) _styleMap['important'] = important;
-    if (inserted != null) _styleMap['inserted'] = inserted;
-    if (italic != null) _styleMap['italic'] = italic;
-    if (keyword != null) _styleMap['keyword'] = keyword;
-    if (namespace != null) _styleMap['namespace'] = namespace;
-    if (number != null) _styleMap['number'] = number;
-    if (operator != null) _styleMap['operator'] = operator;
-    if (prolog != null) _styleMap['prolog'] = prolog;
-    if (property != null) _styleMap['property'] = property;
-    if (punctuation != null) _styleMap['punctuation'] = punctuation;
-    if (regex != null) _styleMap['regex'] = regex;
-    if (selector != null) _styleMap['selector'] = selector;
-    if (string != null) _styleMap['string'] = string;
-    if (symbol != null) _styleMap['symbol'] = symbol;
-    if (tag != null) _styleMap['tag'] = tag;
-    if (url != null) _styleMap['url'] = url;
-  }
+  const PrismStyle({
+    this.token,
+    this.atrule,
+    this.attrName,
+    this.attrValue,
+    this.bold,
+    this.boolean,
+    this.builtin,
+    this.cdata,
+    this.char,
+    this.className,
+    this.comment,
+    this.constant,
+    this.deleted,
+    this.doctype,
+    this.entity,
+    this.function,
+    this.important,
+    this.inserted,
+    this.italic,
+    this.keyword,
+    this.namespace,
+    this.number,
+    this.operator,
+    this.prolog,
+    this.property,
+    this.punctuation,
+    this.regex,
+    this.selector,
+    this.string,
+    this.symbol,
+    this.tag,
+    this.url,
+  }) : _addon = const {};
 
-  final _styleMap = <String, T>{};
+  const PrismStyle._({
+    this.token,
+    this.atrule,
+    this.attrName,
+    this.attrValue,
+    this.bold,
+    this.boolean,
+    this.builtin,
+    this.cdata,
+    this.char,
+    this.className,
+    this.comment,
+    this.constant,
+    this.deleted,
+    this.doctype,
+    this.entity,
+    this.function,
+    this.important,
+    this.inserted,
+    this.italic,
+    this.keyword,
+    this.namespace,
+    this.number,
+    this.operator,
+    this.prolog,
+    this.property,
+    this.punctuation,
+    this.regex,
+    this.selector,
+    this.string,
+    this.symbol,
+    this.tag,
+    this.url,
+    Map<String, T> extraStyles = const {},
+  }) : _addon = extraStyles;
 
-  /// Adds [styleSheet] to current [PrismStyle] instance.
-  void extend(Map<String, T> styleSheet) {
-    _styleMap.addAll(styleSheet);
-  }
+  /// A style for all tokens.
+  final T? token;
+
+  /// A style for token atrule.
+  final T? atrule;
+
+  /// A style for token attrName.
+  final T? attrName;
+
+  /// A style for token attrValue.
+  final T? attrValue;
+
+  /// A style for token bold.
+  final T? bold;
+
+  /// A style for token boolean.
+  final T? boolean;
+
+  /// A style for token builtin.
+  final T? builtin;
+
+  /// A style for token cdata.
+  final T? cdata;
+
+  /// A style for token char.
+  final T? char;
+
+  /// A style for token className.
+  final T? className;
+
+  /// A style for token comment.
+  final T? comment;
+
+  /// A style for token constant.
+  final T? constant;
+
+  /// A style for toen deleted.
+  final T? deleted;
+
+  /// A style for token doctype.
+  final T? doctype;
+
+  /// A style for token entity.
+  final T? entity;
+
+  /// A style for token function.
+  final T? function;
+
+  /// A style for token important.
+  final T? important;
+
+  /// A style for token inserted.
+  final T? inserted;
+
+  /// A style for token italic.
+  final T? italic;
+
+  /// A style for token keyword.
+  final T? keyword;
+
+  /// A style for token namespace.
+  final T? namespace;
+
+  /// A style for token number.
+  final T? number;
+
+  /// A style for token operator.
+  final T? operator;
+
+  /// A style for token prolog.
+  final T? prolog;
+
+  /// A style for token property.
+  final T? property;
+
+  /// A style for token punctuation.
+  final T? punctuation;
+
+  /// A style for token regex.
+  final T? regex;
+
+  /// A style for token selector.
+  final T? selector;
+
+  /// A style for token string.
+  final T? string;
+
+  /// A style for token symbol.
+  final T? symbol;
+
+  /// A style for token tag.
+  final T? tag;
+
+  /// A style for token url.
+  final T? url;
+
+  /// Other styles.
+  final Map<String, T> _addon;
 
   /// Gets a style by the given [name].
   ///
   /// The [name] should be one of the [standardTokenNames], do not transfer
   /// kebab case to camel case.
-  T? get(String? name) => name == null ? null : _styleMap[name];
+  T? get(String? name) {
+    if (name == null) {
+      return null;
+    }
+
+    switch (name) {
+      case 'atrule':
+        return atrule;
+      case 'attr-name':
+        return attrName;
+      case 'attr-value':
+        return attrValue;
+      case 'bold':
+        return bold;
+      case 'boolean':
+        return boolean;
+      case 'builtin':
+        return builtin;
+      case 'cdata':
+        return cdata;
+      case 'char':
+        return char;
+      case 'class-name':
+        return className;
+      case 'comment':
+        return comment;
+      case 'constant':
+        return constant;
+      case 'deleted':
+        return deleted;
+      case 'doctype':
+        return doctype;
+      case 'entity':
+        return entity;
+      case 'function':
+        return function;
+      case 'important':
+        return important;
+      case 'inserted':
+        return inserted;
+      case 'italic':
+        return italic;
+      case 'keyword':
+        return keyword;
+      case 'namespace':
+        return namespace;
+      case 'number':
+        return number;
+      case 'operator':
+        return operator;
+      case 'prolog':
+        return prolog;
+      case 'property':
+        return property;
+      case 'punctuation':
+        return punctuation;
+      case 'regex':
+        return regex;
+      case 'selector':
+        return selector;
+      case 'string':
+        return string;
+      case 'symbol':
+        return symbol;
+      case 'tag':
+        return tag;
+      case 'url':
+        return url;
+    }
+
+    return _addon[name];
+  }
+
+  /// Creates a [PrismStyle] instance with extra [styleSheet].
+  PrismStyle<T> extend(Map<String, T> styleSheet) => PrismStyle._(
+        token: token,
+        atrule: atrule,
+        attrName: attrName,
+        attrValue: attrValue,
+        bold: bold,
+        boolean: boolean,
+        builtin: builtin,
+        cdata: cdata,
+        char: char,
+        className: className,
+        comment: comment,
+        constant: constant,
+        deleted: deleted,
+        doctype: doctype,
+        entity: entity,
+        function: function,
+        important: important,
+        inserted: inserted,
+        italic: italic,
+        keyword: keyword,
+        namespace: namespace,
+        number: number,
+        operator: operator,
+        prolog: prolog,
+        property: property,
+        punctuation: punctuation,
+        regex: regex,
+        selector: selector,
+        string: string,
+        symbol: symbol,
+        tag: tag,
+        url: url,
+        extraStyles: styleSheet,
+      );
 
   /// The standard token names.
   static const standardTokenNames = [
